@@ -6,11 +6,11 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: QualesLoginTest
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Cypress run
+      - name: QualesLoginTest
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
           command: npm run cypress:execution
