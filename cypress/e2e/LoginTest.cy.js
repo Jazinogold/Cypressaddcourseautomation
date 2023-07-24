@@ -25,6 +25,7 @@ describe("This test is to ensure that users can login to the Quales app sucessfu
     ///cy.get('.css-wvpqgg').click()
     ///cy.get('.MuiBox-root > .MuiButton-contained').click()
     ///cy.contains('Course deleted successfully').should("be.visible")
+    
 
     
     
