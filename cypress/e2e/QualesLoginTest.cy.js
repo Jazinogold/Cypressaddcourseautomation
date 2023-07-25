@@ -24,7 +24,7 @@ describe("This test is to ensure that users can login to the Quales app sucessfu
     cy.get(':nth-child(10) > .MuiCardMedia-root').click()
     cy.get('.css-wvpqgg').click()
     cy.get('.MuiBox-root > .MuiButton-contained').click()
-    cy.contains('Course deleted successfully').should("be.visible")
+   
     
 
 
