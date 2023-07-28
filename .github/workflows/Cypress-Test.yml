@@ -1,16 +1,15 @@
-# This is a basic workflow that is manually triggered
-
 name: Cypress test in GitHub Action
 on: [push]
 
 jobs:
-my_job:
-runs-on: ubuntu-18.04
-steps:
-— name: Checkout
-uses: actions/checkout@v1
+  my_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-– name: cyress test cases
-uses:
-with:
-start: npm start
+      - name: Cypress test cases
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+
