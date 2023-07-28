@@ -80,7 +80,7 @@ it("Verify user can create a course using the POST method", () => {
     expect(responseBody).to.have.property("id");
     expect(responseBody).to.have.property("title");
 
-    // Proceed to the second test after courseId is set
+    // Proceed to the second test after courseId 
     cy.searchCourse();
   });
 });
