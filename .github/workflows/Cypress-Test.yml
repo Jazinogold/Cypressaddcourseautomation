@@ -11,6 +11,6 @@ steps:
 uses: actions/checkout@v1
 
 – name: cyress test cases
-uses: cypress-io/github-action@v2.9.7
+uses:
 with:
 start: npm start
